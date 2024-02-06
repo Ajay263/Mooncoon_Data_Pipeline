@@ -1,0 +1,187 @@
+models:
+  - name: stg_upcoming_launches
+    description: ""
+    columns:
+      - name: id
+        data_type: character varying
+        description: ""
+
+      - name: name
+        data_type: character varying
+        description: ""
+
+      - name: status__name
+        data_type: character varying
+        description: ""
+
+      - name: status__description
+        data_type: character varying
+        description: ""
+
+      - name: last_updated
+        data_type: timestamp with time zone
+        description: ""
+
+      - name: net
+        data_type: timestamp with time zone
+        description: ""
+
+      - name: window_end
+        data_type: timestamp with time zone
+        description: ""
+
+      - name: window_start
+        data_type: timestamp with time zone
+        description: ""
+
+      - name: launch_service_provider__total_launch_count
+        data_type: character varying
+        description: ""
+
+      - name: launch_service_provider__country_code
+        data_type: character varying
+        description: ""
+
+      - name: launch_service_provider__founding_year
+        data_type: character varying
+        description: ""
+
+      - name: launch_service_provider__wiki_url
+        data_type: character varying
+        description: ""
+
+      - name: rocket__configuration__image_url
+        data_type: character varying
+        description: ""
+
+      - name: rocket__configuration__leo_capacity
+        data_type: bigint
+        description: ""
+
+      - name: mission__name
+        data_type: character varying
+        description: ""
+
+      - name: mission__description
+        data_type: character varying
+        description: ""
+
+      - name: mission__type
+        data_type: character varying
+        description: ""
+
+      - name: mission__orbit__id
+        data_type: bigint
+        description: ""
+
+      - name: mission__orbit__name
+        data_type: character varying
+        description: ""
+
+      - name: mission__orbit__abbrev
+        data_type: character varying
+        description: ""
+
+      - name: pad__map_url
+        data_type: character varying
+        description: ""
+
+      - name: pad__latitude
+        data_type: character varying
+        description: ""
+
+      - name: pad__longitude
+        data_type: character varying
+        description: ""
+
+      - name: pad__location__id
+        data_type: bigint
+        description: ""
+
+      - name: pad__location__url
+        data_type: character varying
+        description: ""
+
+      - name: pad__location__name
+        data_type: character varying
+        description: ""
+
+      - name: pad__location__country_code
+        data_type: character varying
+        description: ""
+
+      - name: pad__location__map_image
+        data_type: character varying
+        description: ""
+
+      - name: pad__location__timezone_name
+        data_type: character varying
+        description: ""
+
+      - name: pad__location__total_launch_count
+        data_type: bigint
+        description: ""
+
+      - name: pad__location__total_landing_count
+        data_type: bigint
+        description: ""
+
+      - name: pad__country_code
+        data_type: character varying
+        description: ""
+
+      - name: pad__map_image
+        data_type: character varying
+        description: ""
+
+      - name: pad__total_launch_count
+        data_type: bigint
+        description: ""
+
+      - name: pad__orbital_launch_attempt_count
+        data_type: bigint
+        description: ""
+
+      - name: image
+        data_type: character varying
+        description: ""
+
+      - name: orbital_launch_attempt_count
+        data_type: bigint
+        description: ""
+
+      - name: location_launch_attempt_count
+        data_type: bigint
+        description: ""
+
+      - name: pad_launch_attempt_count
+        data_type: bigint
+        description: ""
+
+      - name: agency_launch_attempt_count
+        data_type: bigint
+        description: ""
+
+      - name: orbital_launch_attempt_count_year
+        data_type: bigint
+        description: ""
+
+      - name: location_launch_attempt_count_year
+        data_type: bigint
+        description: ""
+
+      - name: pad_launch_attempt_count_year
+        data_type: bigint
+        description: ""
+
+      - name: agency_launch_attempt_count_year
+        data_type: bigint
+        description: ""
+
+      - name: pad_turnaround
+        data_type: character varying
+        description: ""
+
+      - name: type
+        data_type: character varying
+        description: ""

@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: dim_launch_service_provider
+    description: "Launch Service Provider Dimension"
+
+  - name: dim_rocket_configuration
+    description: "Rocket Configuration Dimension"
+
+  - name: dim_mission
+    description: "Mission Dimension"
+
+  - name: dim_pad
+    description: "Pad Dimension"
+
+  - name: dim_orbit
+    description: "Orbit Dimension"
+
+  - name: dimDate
+    description: "Date   Table"
