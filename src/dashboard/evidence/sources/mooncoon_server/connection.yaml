@@ -1,0 +1,7 @@
+# This file was automatically generated
+name: mooncoon_server
+type: postgres
+options:
+  host: 172.18.0.3
+  port: 5432
+  database: mooncon_rocket_data

@@ -1,3 +1,5 @@
+with source as (
+
 select   
 
     stg_upcoming_launches.id as Launch_Service_Provider_id,
@@ -12,6 +14,18 @@ select
     stg_upcoming_launches.launch_service_provider__successful_landings as Successful_Landings,
     stg_upcoming_launches.launch_service_provider__failed_landings as Failed_Landings,
     stg_upcoming_launches.launch_service_provider__info_url  as Info_Url,
-    stg_upcoming_launches.launch_service_provider__image_url as Image_Url
+    stg_upcoming_launches.launch_service_provider__image_url as Image_Url,
+    stg_upcoming_launches.status__abbrev  as Status
     
 from {{ ref('stg_upcoming_launches') }}
+
+),
+unique_source as (
+
+    select*,
+           row_number() over(partition by Launch_Service_Provider_id) as row_number
+    from source
+)
+select*
+from unique_source
+where row_number=1

@@ -1,0 +1,1 @@
+SELECT* FROM "analytics_OBT".obt_launches_overview

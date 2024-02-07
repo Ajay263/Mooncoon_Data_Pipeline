@@ -11,7 +11,7 @@ def Rocketapi_resource():
     The results are ordered by ascending T-0 (NET).
     """
     try:
-        launch_base_url = 'https://lldev.thespacedevs.com/2.2.0/launch/upcoming/?location__ids=12,27&fields=name,id,lsp__id,lsp__name,serial_number,launcher_config__id,rocket__spacecraftflight__spacecraft__name,is_crewed,include_suborbital,spacecraft_config__ids,related,location__ids,lsp__ids,pad__ids,status__ids,hide_recent_previous'
+        launch_base_url = 'https://lldev.thespacedevs.com/2.2.0/launch/'
 
         now = datetime.now()
         month_from_now = now + timedelta(days=31)

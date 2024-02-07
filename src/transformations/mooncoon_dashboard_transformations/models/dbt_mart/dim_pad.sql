@@ -1,3 +1,5 @@
+with source as (
+
 select
 
     
@@ -14,3 +16,14 @@ select
      
 
 from {{ ref('stg_upcoming_launches') }}
+
+),
+unique_source as (
+
+    select*,
+           row_number() over(partition by Pad_id) as row_number
+    from source
+)
+select*
+from unique_source
+where row_number=1

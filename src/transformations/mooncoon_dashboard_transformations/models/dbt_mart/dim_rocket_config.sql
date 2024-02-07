@@ -1,3 +1,5 @@
+with source as (
+
 select
 
    
@@ -15,3 +17,15 @@ select
     stg_upcoming_launches.rocket__configuration__manufacturer__successful_launches as Manufacturer__Successful_Launches,
     stg_upcoming_launches.rocket__configuration__manufacturer__failed_launches as Manufacturer__Failed_Launches
 from {{ ref('stg_upcoming_launches') }}
+
+
+),
+unique_source as (
+
+    select*,
+           row_number() over(partition by Rocket_config_id) as row_number
+    from source
+)
+select*
+from unique_source
+where row_number=1

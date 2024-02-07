@@ -43,3 +43,8 @@ models:
     dbt_mart:
       +materialized: table
       +schema: dbt_mart
+
+    analytics_OBT:
+      +materialized: table
+      +schema: analytics_OBT
+
