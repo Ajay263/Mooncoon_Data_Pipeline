@@ -4,184 +4,187 @@ models:
     columns:
       - name: id
         data_type: character varying
-        description: ""
+        description: "The primary key of the Table"
+        tests:
+          - unique
+          - not_null
 
       - name: name
         data_type: character varying
-        description: ""
+        description: "The name for the Service provider"
 
       - name: status__name
         data_type: character varying
-        description: ""
+        description: "The status value"
 
       - name: status__description
         data_type: character varying
-        description: ""
+        description: "The status Description of the launch"
 
       - name: last_updated
         data_type: timestamp with time zone
-        description: ""
+        description: "Time since the data was last updated"
 
       - name: net
         data_type: timestamp with time zone
-        description: ""
+        description: "launch time not earlier than(net)"
 
       - name: window_end
         data_type: timestamp with time zone
-        description: ""
+        description: "The end time of a launch window."
 
       - name: window_start
         data_type: timestamp with time zone
-        description: ""
+        description: " The beginning time of this launch window."
 
       - name: launch_service_provider__total_launch_count
         data_type: character varying
-        description: ""
+        description: "Launch Service Provider Total Count"
 
       - name: launch_service_provider__country_code
         data_type: character varying
-        description: ""
+        description: "Launch Service Provider Country Code"
 
       - name: launch_service_provider__founding_year
         data_type: character varying
-        description: ""
+        description: "Launch Service Provider Founding Year"
 
       - name: launch_service_provider__wiki_url
         data_type: character varying
-        description: ""
+        description: "Launch Service Provider wiki url"
 
       - name: rocket__configuration__image_url
         data_type: character varying
-        description: ""
+        description: "Rocket Configuration Image Url"
 
       - name: rocket__configuration__leo_capacity
         data_type: bigint
-        description: ""
+        description: "Rocket Configuration Leo Capacity"
 
       - name: mission__name
         data_type: character varying
-        description: ""
+        description: "Mission Name"
 
       - name: mission__description
         data_type: character varying
-        description: ""
+        description: "Mission  Description"
 
       - name: mission__type
         data_type: character varying
-        description: ""
+        description: "Mission  type"
 
       - name: mission__orbit__id
         data_type: bigint
-        description: ""
+        description: "Mission  orbit id"
 
       - name: mission__orbit__name
         data_type: character varying
-        description: ""
+        description: "Mission  Orbit Name"
 
       - name: mission__orbit__abbrev
         data_type: character varying
-        description: ""
+        description: "Mission  Orbit Abbreviation"
 
       - name: pad__map_url
         data_type: character varying
-        description: ""
+        description: "Pad Map Url"
 
       - name: pad__latitude
         data_type: character varying
-        description: ""
+        description: "Pad latitude"
 
       - name: pad__longitude
         data_type: character varying
-        description: ""
+        description: "Pad Longitude"
 
       - name: pad__location__id
         data_type: bigint
-        description: ""
+        description: "Pad Location id"
 
       - name: pad__location__url
         data_type: character varying
-        description: ""
+        description: "Pad locaion url"
 
       - name: pad__location__name
         data_type: character varying
-        description: ""
+        description: "Pad location Map"
 
       - name: pad__location__country_code
         data_type: character varying
-        description: ""
+        description: "Pad location Country Code"
 
       - name: pad__location__map_image
         data_type: character varying
-        description: ""
+        description: "Pad Location Map Image"
 
       - name: pad__location__timezone_name
         data_type: character varying
-        description: ""
+        description: "Pad Location timezone Name"
 
       - name: pad__location__total_launch_count
         data_type: bigint
-        description: ""
+        description: "Pad total launch count"
 
       - name: pad__location__total_landing_count
         data_type: bigint
-        description: ""
+        description: "Pad location total landing count"
 
       - name: pad__country_code
         data_type: character varying
-        description: ""
+        description: "Pad Country Code"
 
       - name: pad__map_image
         data_type: character varying
-        description: ""
+        description: "Pad map image"
 
       - name: pad__total_launch_count
         data_type: bigint
-        description: ""
+        description: "Pad Total Launch Count"
 
       - name: pad__orbital_launch_attempt_count
         data_type: bigint
-        description: ""
+        description: "Pad Orbital Launch Attempt Count"
 
       - name: image
         data_type: character varying
-        description: ""
+        description: "Image for the Rocket"
 
       - name: orbital_launch_attempt_count
         data_type: bigint
-        description: ""
+        description: "Orbit Launch Attemp Count"
 
       - name: location_launch_attempt_count
         data_type: bigint
-        description: ""
+        description: "Location Launch Attempt Count"
 
       - name: pad_launch_attempt_count
         data_type: bigint
-        description: ""
+        description: "Pad Launch Attempt Count"
 
       - name: agency_launch_attempt_count
         data_type: bigint
-        description: ""
+        description: "Agency Launch Atempt Count"
 
       - name: orbital_launch_attempt_count_year
         data_type: bigint
-        description: ""
+        description: "Orbital Launch Attempt Count"
 
       - name: location_launch_attempt_count_year
         data_type: bigint
-        description: ""
+        description: "Location launch Attempt Count Year"
 
       - name: pad_launch_attempt_count_year
         data_type: bigint
-        description: ""
+        description: "Pad launch Attempt Count year"
 
       - name: agency_launch_attempt_count_year
         data_type: bigint
-        description: ""
+        description: "Agency launch Attempt Count Year"
 
       - name: pad_turnaround
         data_type: character varying
-        description: ""
+        description: "PAD turnaround"
 
       - name: type
         data_type: character varying
-        description: ""
+        description: "Type of the launch"

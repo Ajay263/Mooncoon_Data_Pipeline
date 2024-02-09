@@ -6,6 +6,9 @@ sources:
     schema: mooncoon_rocket_dataset 
     tables:
       - name: raw_upcoming_launches
+        meta:
+            dagster:
+              asset_key: ["raw_upcoming_launches_data"] 
 
 
 
