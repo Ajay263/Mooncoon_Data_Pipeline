@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: mooncon_rocket_data
+    database: mooncon_rocket_data
+    schema: mooncoon_rocket_dataset 
+    tables:
+      - name: raw_upcoming_launches
+        meta:
+            dagster:
+              asset_key: ["raw_upcoming_launches_data"] 
+
+
