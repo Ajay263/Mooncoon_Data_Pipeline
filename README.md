@@ -5,16 +5,16 @@
 
 ####  Preface
 
-This repository contains the  project for the  Assessment Project repository from Mooncoon Company.The project covers main fundamentals of  data engineering principles from data generation to storage, ingestion, transformation, and serving, each stage of the data engineering lifecycle is meticulously dissected providing insights into the intricate workings of the data engineering domain using open source tools like dlthub,dagster,dbt and etc.The essence of this project lies in its emphasis on the data engineering lifecycle, a timeless framework that transcends the ever-changing landscape of technological advancements. While specific tools and technologies may come and go, the overarching goal remains steadfast: to address the evolving needs of the business.
+This repository contains the  project for the  Assessment Project repository from A certain  Company called topTech  a fictional company.The project covers main fundamentals of  data engineering principles from data generation to storage, ingestion, transformation, and serving, each stage of the data engineering lifecycle is meticulously dissected providing insights into the intricate workings of the data engineering domain using open source tools like dlthub,dagster,dbt and etc.The essence of this project lies in its emphasis on the data engineering lifecycle, a timeless framework that transcends the ever-changing landscape of technological advancements. While specific tools and technologies may come and go, the overarching goal remains steadfast: to address the evolving needs of the business.
 
 #### Problem Statement
 
-As a Raccoon Engineer working for Mooncoon, the mission is clear: determine which rocket to infiltrate for a covert journey to our lunar base. To achieve this, the task at hand is to construct a dashboard displaying all upcoming rocket launches. The objective is to provide our Raccoon spies with timely and comprehensive information for strategic planning. 
+As a Raccoon Engineer working for topTech, the mission is clear: determine which rocket to infiltrate for a covert journey to our lunar base. To achieve this, the task at hand is to construct a dashboard displaying all upcoming rocket launches. The objective is to provide our Raccoon spies with timely and comprehensive information for strategic planning. 
 
 
 #### Introduction
 
-In the modern era of space exploration, data-driven decisions are paramount for success. As a Raccoon Engineer working for Mooncoon,I've been entrusted with a pivotal project by Mooncoon, an innovative space exploration company.Our mission is clear: to secure a covert passage to our lunar base by infiltrating the right rocket. To achieve this, I've been tasked with building a comprehensive dashboard that provides  information on upcoming rocket launches. This dashboard is not just a tool; it's a strategic asset that will empower our Raccoon spies to plan their next infiltration with precision.
+In the modern era of space exploration, data-driven decisions are paramount for success. As a Raccoon Engineer working for topTech,I've been entrusted with a pivotal project by topTech, an innovative space exploration company.Our mission is clear: to secure a covert passage to our lunar base by infiltrating the right rocket. To achieve this, I've been tasked with building a comprehensive dashboard that provides  information on upcoming rocket launches. This dashboard is not just a tool; it's a strategic asset that will empower our Raccoon spies to plan their next infiltration with precision.
 
 
 #### Dataset Description
