@@ -102,7 +102,7 @@ To reproduce this project, follow these steps:
 Command:
 
 ``` 
-git clone https://github.com/Ajay263/mooncoon_dashboard.git
+https://github.com/Ajay263/topTech_dashboard.git
 ```
    
 **2.Install Project Dependencies**
@@ -149,7 +149,7 @@ docker-compose up -d
     Path: 
 
     ```
-    cd mooncoon_dashboard/src/etl/mooncoon_dashboard_transformations/orchastration_dagster/orchastration_dagster
+    cd topTech_dashboard/src/etl/mooncoon_dashboard_transformations/orchastration_dagster/orchastration_dagster
     ```
 *Update IP Address in secrets.toml*.
 
@@ -197,7 +197,7 @@ docker-compose up -d
 Navigate to  the folder 
 
 ```
-cd mooncoon_dashboard/src/etl/mooncoon_dashboard_transformations/orchastration_dagster
+cd topTech_dashboard/src/etl/mooncoon_dashboard_transformations/orchastration_dagster
 ```
 
 To Access Dagster's UI.Run  Command
@@ -212,7 +212,7 @@ DAGSTER_DBT_PARSE_PROJECT_ON_LOAD=1 dagster dev
 Navigate to  the folder 
 
 ```
-  cd mooncoon_dashboard/src/dashboard/evidence
+  cd topTech_dashboard/src/dashboard/evidence
 ```
 
 To Access Evidence Dashboard.Run  Command
